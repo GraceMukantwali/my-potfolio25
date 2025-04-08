@@ -1,0 +1,36 @@
+
+<!DOCTYPE html> 
+<html> 
+<head> 
+  <title>DOM </title> 
+  <style>
+  .highlight { 
+    color: blue; 
+    font-weight: bold; 
+  } 
+</style> 
+</head> 
+<body> 
+
+<h1 id="title">Hello class</h1> 
+<p class="text">How are you today?</p> 
+<p class="text">How was the weekend?</p> 
+<button id="click Here" color=blue>Click Here</button> 
+
+<!-- JavaScript will go here --> 
+<script> 
+  // JavaScript goes here in the next steps 
+
+const title = document.getElementById("title"); 
+const texts = document.getElementsByClassName("text"); 
+const firstText = document.querySelector(".text"); 
+const allTexts = document.querySelectorAll(".text"); 
+title.style.color = "red"; 
+title.style.backgroundColor = "lightred"; 
+ 
+</script> 
+
+</body> 
+</html> 
+
+
